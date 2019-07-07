@@ -1,0 +1,23 @@
+{
+    "name": "commander-dark-theme",
+    "displayName": "Commander Dark Theme",
+    "description": "White-on-blue syntax coloring theme with darker colors loosely inspired by Norton Commander, Turbo C, etc.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Commander Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Commander Dark-color-theme.json"
+            }
+        ]
+    },
+    "publisher": "electroly",
+    "repository": "https://github.com/electroly/commander-dark-theme"
+}
